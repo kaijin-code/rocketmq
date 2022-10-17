@@ -29,7 +29,7 @@ import org.apache.rocketmq.common.message.MessageQueue;
 import org.apache.rocketmq.test.util.RandomUtil;
 
 public class MQMessageFactory {
-    private static Integer index = 0;
+    private static Integer index = 1;
 
     public static List<Object> getRMQMessage(String tag, String topic, int msgSize) {
         List<Object> msgs = new ArrayList<Object>();
