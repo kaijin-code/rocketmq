@@ -55,7 +55,7 @@ public class MQMessageFactory {
         for (Object msg : msgs) {
             msgBodys.add(new String(((Message) msg).getBody(), StandardCharsets.UTF_8));
         }
-//contributor
+
         return msgBodys;
     }
 
